@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="robot_planar">
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder length="0.6" radius="0.2">
+                </cylinder>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0.3"/>
+        </visual>
+    </link>
+
+
+
+    <link name="l1">
+        <visual>
+            <geometry>
+                <box size= "0.5 0.1 0.2"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0.15"/>
+        </visual>
+    </link>
+</robot>
+

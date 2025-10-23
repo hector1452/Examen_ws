@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hector/workspaces/clase_4_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/hector/workspaces/clase_4_ws/src/install/robot_description
+[0.094s] -- The C compiler identification is GNU 13.3.0
+[0.169s] -- The CXX compiler identification is GNU 13.3.0
+[0.186s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.385s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.385s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.385s]   has asked CMake to find a package configuration file provided by
+[0.385s]   "ament_cmake", but CMake did not find one.
+[0.385s] 
+[0.385s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.386s]   any of the following names:
+[0.386s] 
+[0.386s]     ament_cmakeConfig.cmake
+[0.386s]     ament_cmake-config.cmake
+[0.386s] 
+[0.386s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.386s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.386s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.386s]   has been installed.
+[0.386s] 
+[0.386s] [0m
+[0.386s] -- Configuring incomplete, errors occurred!
+[0.389s] Invoked command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hector/workspaces/clase_4_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/hector/workspaces/clase_4_ws/src/install/robot_description

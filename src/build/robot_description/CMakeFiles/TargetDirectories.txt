@@ -1,0 +1,9 @@
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/uninstall.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/robot_description_uninstall.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/test.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/edit_cache.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/rebuild_cache.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/list_install_components.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/install.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/install/local.dir
+/home/hector/workspaces/clase_4_ws/src/build/robot_description/CMakeFiles/install/strip.dir

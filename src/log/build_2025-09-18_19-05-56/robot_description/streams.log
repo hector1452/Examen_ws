@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hector/workspaces/clase_4_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/hector/workspaces/clase_4_ws/src/install/robot_description
+[0.027s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.153s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.266s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[0.358s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.358s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.359s] -- Added test 'lint_cmake' to check CMake code style
+[0.359s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.362s] -- Added test 'xmllint' to check XML markup files
+[0.364s] -- Configuring done (0.3s)
+[0.367s] -- Generating done (0.0s)
+[0.368s] -- Build files have been written to: /home/hector/workspaces/clase_4_ws/src/build/robot_description
+[0.372s] Invoked command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hector/workspaces/clase_4_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/hector/workspaces/clase_4_ws/src/install/robot_description
+[0.372s] Invoking command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hector/workspaces/clase_4_ws/src/build/robot_description -- -j16 -l16
+[0.409s] Invoked command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hector/workspaces/clase_4_ws/src/build/robot_description -- -j16 -l16
+[0.418s] Invoking command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hector/workspaces/clase_4_ws/src/build/robot_description
+[0.425s] -- Install configuration: ""
+[0.425s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/launch
+[0.425s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/launch/view_robot.launch.py
+[0.425s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf
+[0.425s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/multipleshapes.gv
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/multipleshapes.pdf
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/rr_planar.urdf
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/wally1.urdf
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/panda.urdf
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/myfirst_robot.urdf
+[0.426s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/scara_test.urdf
+[0.427s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/diff_wheeled_robot.urdf
+[0.427s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/pantilt.urdf
+[0.427s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/clases_test.urdf
+[0.427s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/TRR_test.urdf
+[0.427s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/cobot_arm.urdf
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/urdf/guillecar.urdf
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/rviz
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/rviz/urdf.rviz
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision
+[0.428s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/finger.obj
+[0.429s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/hand.obj
+[0.429s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link1.obj
+[0.429s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link5.obj
+[0.430s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link0.obj
+[0.430s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link4.obj
+[0.430s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link2.obj
+[0.431s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link3.obj
+[0.431s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link7.obj
+[0.431s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/collision/link6.obj
+[0.437s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual
+[0.438s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[0.439s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[0.441s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[0.443s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[0.445s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[0.446s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[0.448s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[0.450s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[0.450s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[0.452s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[0.453s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.453s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/environment/path.sh
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/local_setup.bash
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/local_setup.sh
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+[0.454s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+[0.455s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/package.dsv
+[0.455s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.455s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.455s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.455s] -- Installing: /home/hector/workspaces/clase_4_ws/src/install/robot_description/share/robot_description/package.xml
+[0.457s] Invoked command in '/home/hector/workspaces/clase_4_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hector/workspaces/clase_4_ws/src/build/robot_description

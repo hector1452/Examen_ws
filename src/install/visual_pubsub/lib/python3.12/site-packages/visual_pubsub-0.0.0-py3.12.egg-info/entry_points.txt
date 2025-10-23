@@ -1,0 +1,4 @@
+[console_scripts]
+inverse_joints = visual_pubsub.inverse_kinematics:main
+pub_joints = visual_pubsub.pub_joints:main
+sub_joints = visual_pubsub.sub_joints:main
